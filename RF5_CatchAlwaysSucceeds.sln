@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF5_CatchAlwaysSucceeds", "RF5_CatchAlwaysSucceeds.csproj", "{E6C964A6-C65B-441A-9678-7660C71A6888}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6C964A6-C65B-441A-9678-7660C71A6888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C964A6-C65B-441A-9678-7660C71A6888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C964A6-C65B-441A-9678-7660C71A6888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C964A6-C65B-441A-9678-7660C71A6888}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D009C828-410F-4E55-A541-89708F3AE94B}
+	EndGlobalSection
+EndGlobal
