@@ -10,13 +10,16 @@ namespace RF5_TamingAlwaysSucceeds;
 [BepInProcess(GAME_PROCESS)]
 public class Main : BasePlugin
 {
-    public static new ManualLogSource Log;
+    internal static readonly ManualLogSource Log = BepInEx.Logging.Logger.CreateLogSource("TamingAlwaysSucceeds");
     private const string GAME_PROCESS = "Rune Factory 5.exe";
     private Harmony harmony = new Harmony(MyPluginInfo.PLUGIN_GUID);
 
     public override void Load()
     {
-        Log = base.Log;
+        Log.LogInfo($"Plugin {MyPluginInfo.PLUGIN_NAME} {MyPluginInfo.PLUGIN_VERSION} is loading!");
+
         harmony.PatchAll();
+
+        Log.LogInfo($"Plugin {MyPluginInfo.PLUGIN_NAME} {MyPluginInfo.PLUGIN_VERSION} is loaded!");
     }
 }
